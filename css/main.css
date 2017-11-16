@@ -4,7 +4,6 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-
 header{
   position: fixed;
   width: 100%;
@@ -13,13 +12,7 @@ header{
   z-index: 5;
 }
 
-.ancho{
-  width: 100%;
-  height: 70px;
-  background-color: #fff;
-}
-
-.logo{
+.logo{ /*Div que contiene logoLab*/
   height: 70px;
   width: 60%;
   background-color: #fff;
@@ -28,10 +21,13 @@ header{
   margin-left: 110px;
 }
 
+.logo img{/*imagen logoLab*/
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+  width: 10em;
+}
 
-
-
-.sede{
+.sede{ /*Barra menús sedes*/
   background-color: #444;
   width: 100%;
   height: 200px;
@@ -49,16 +45,9 @@ header{
 .menu h3{
   margin-top: 20px;
   margin-left: 15px;
-
-.menu{
-  width: 3em;
-  margin-top: -4.5em;
-  margin-left: 4em;
-
-  color: #ffae00;
-
 }
 
+/*Menú despegable*/
 .menuDespegable{
   background: #363636;
   margin-left: 3em;
@@ -85,18 +74,10 @@ header{
 
 button {
   border: none;
-  width: 2.5em;
-}
-
-hr{
-  color: black;
-  height: 2px;
-}
-
-header img{
-  padding-top: 1em;
-  padding-bottom: 1.5em;
-  width: 10em;
+  background: none;
+  position: relative;
+  right: 67em;
+  top: 1.6em;
 }
 
 .enabledMenu{
