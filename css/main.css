@@ -30,6 +30,7 @@ header{
 
 
 
+
 .sede{
   background-color: #444;
   width: 100%;
@@ -48,12 +49,60 @@ header{
 .menu h3{
   margin-top: 20px;
   margin-left: 15px;
+
+.menu{
+  width: 3em;
+  margin-top: -4.5em;
+  margin-left: 4em;
+
   color: #ffae00;
 
+}
+
+.menuDespegable{
+  background: #363636;
+  margin-left: 3em;
+  width: 15em;
+}
+
+.menuDespegable ul{
+  text-align: left;
+  list-style: none;
+}
+
+.menuDespegable li:hover{
+  background: #fbbd00;
+}
+
+.menuDespegable a{
+  text-decoration: none;
+  color: white;
+}
+
+.logoFinal img{
+  width: 20%;
+}
+
+button {
+  border: none;
+  width: 2.5em;
+}
+
+hr{
+  color: black;
+  height: 2px;
 }
 
 header img{
   padding-top: 1em;
   padding-bottom: 1.5em;
   width: 10em;
+}
+
+.enabledMenu{
+  display: block;
+}
+
+.desabledMenu{
+  display: none;
 }
