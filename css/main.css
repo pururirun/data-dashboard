@@ -1,3 +1,28 @@
 /*
  * Estilos de tu proyecto
  */
+body{
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header{
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  background: #fff;
+  -webkit-box-shadow: 2px 2px 10px grey;
+}
+
+.menuDespegable{
+  width: 3em;
+  margin-top: -4.5em;
+  margin-left: 4em;
+  color: #ffae00;
+}
+
+header img{
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+  width: 10em;
+}
