@@ -32,33 +32,40 @@ header{
   padding-top: 100px;
 }
 
-.menu{
+.menu{  /* div que contiene h3 menu*/
   width: 90px;
   height: 70px;
   margin-left: 60px;
   float: left;
 }
 
-.menu h3{
+.menu h3{  /*texto*/
   margin-top: 20px;
   margin-left: 15px;
 }
 
 /*Menú despegable*/
 
-.usuario{
-  margin-bottom: 3em;
-}
-
 .usuario img{
   padding-left: 1em;
   width: 40%;
+}
+
+.usuario h4{
+  margin-left: 6em;
+  position: relative;
+  bottom: 80px;
+  left: 10px;
+  color: #fff;
+
 }
 
 .menuDespegable{
   background: #363636;
   margin-left: 3em;
   width: 15em;
+  position: relative;
+  top: 70px;
   z-index: 1;
 }
 
