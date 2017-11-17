@@ -1,8 +1,4 @@
-/*
- * Funcionalidad de tu producto
- */
 /*Menú despegable*/
-
 var boton = document.getElementById("btn");
 
 function showMenu() {
@@ -17,9 +13,8 @@ function showMenu() {
     menu.classList.add("disabledMenu");
   }
 }
-
 boton.addEventListener("click", showMenu);
-
+/*Menú despegable fin*/
 
 
 
