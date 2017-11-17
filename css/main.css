@@ -51,7 +51,7 @@ header{
   width: 40%;
 }
 
-<<<<<<< c9f3a5aa1339d2094ee839c3f632956d2263647e
+
 .usuario h4{
   margin-left: 6em;
   position: relative;
@@ -59,12 +59,8 @@ header{
   left: 10px;
   color: #fff;
 
-=======
-.textUser h4{
-  padding-left: 7.5em;
-  margin-top: -10em;
-  color: white;
->>>>>>> Modificaciones
+
+
 }
 
 .menuDespegable{
