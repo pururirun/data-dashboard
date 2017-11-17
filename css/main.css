@@ -67,9 +67,9 @@ header{
   background: #363636;
   margin-left: 3em;
   width: 15em;
-  position: relative;
+  position: fixed;
   top: 70px;
-  z-index: 1;
+  
 }
 
 .menuDespegable ul{
@@ -113,6 +113,10 @@ button {
   color: white;
 }
 
+.sede h1{
+  margin-top: 50px;
+}
+
 .sede ul{
   display: flex;
   list-style: none;
@@ -132,3 +136,25 @@ button {
 .sede h1{
   padding-left: 3em;
 }
+
+/*seccion graficos*/
+.graph{
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 600px;
+}
+
+.graph p{
+  font-size: 16px;
+  margin-left: 60px;
+  padding-top: 50px;
+  border-bottom:  0.5em solid #fbab00;
+  width: 85px;
+
+}
+#btn2{
+   
+
+}
+
+
