@@ -109,7 +109,26 @@ button {
   display: none;
 }
 
-#seccion1 ul{
+#seccion1{
+  color: white;
+}
+
+.sede ul{
   display: flex;
   list-style: none;
+}
+
+.sede a{
+  text-decoration: none;
+  color: white;
+  padding-left: 3.2em;
+}
+
+.sede li{
+  display: block;
+  padding: 20px 20px;
+}
+
+.sede h1{
+  padding-left: 3em;
 }
