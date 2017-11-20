@@ -15,6 +15,15 @@ function showMenu() {
 }
 boton.addEventListener("click", showMenu);
 /*Menú despegable fin*/
+/*Gráfico 1*/
+/*Número alumnas*/
+
+
+
+/*Porcentaje de abandono / active = false*/
+/*Fin gráfico 1*/
+
+
 
 
 
