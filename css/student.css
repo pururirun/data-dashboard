@@ -5,9 +5,9 @@
   list-style: none;
 }
 
-.seccion2{
+body{
   background: #d6d6d6;
-
+  height: 100%;
 }
 
 header{
@@ -172,125 +172,103 @@ button:focus { /*No mostrar foco*/
 
 /*Fin gráficos, etc*/
 
-/*seccion graficos*/
-.graph{
-  background-color: #ededed;
-  width: 100%;
-
-  height: 490px
-
-
-  height: 400px;
+ul{
+  list-style: none;
 }
-
-.graph p{
-  font-size: 16px;
-  margin-left: 60px;
-  padding-top: 50px;
-  border-bottom:  0.5em solid #fbab00;
-  width: 85px;
-
-}
-
-.graphContainer{ /* contenedor grafico 1*/
-  margin: 15px auto;
-  width: 90%;
-  height: 300px;
+/*Div especialización*/
+.especializacion{
   background: white;
-
+  width: 27%;
+  height: 140px;
+  margin-left: 80px;
+  border-radius: 5px;
+  margin-top: 1em;
 }
 
-.grafico img{
-  width: 40%;
-  margin-top: 10px;
-}
-
-.grafico2 img{
-  width: 40%;
-  margin-top: 40px;
-}
-/*Sub menú 2*/
-.sprint1{
-  margin-left: 43em;
-  margin-top: -16em;
-}
-
-.menuSprint a{
-  text-decoration: none;
-  color: black;
-}
-
-.subMenu2{
-  position: absolute;
-  color: black;
-  background: white;
-  padding: 15px;
-  width: 7%;
-  display: none;
-}
-
-.menuSprint li:hover .subMenu2{
-  display: block;
-}
-/*Fin sub menú 2*/
-.porcentajes{
-  margin-left: 52em;
-  margin-top: -2.5em;
-}
-
-.totalAlumnas{
-  display: inline-block;
-  background: #ededed;
-  width: 140px;
-  height: 80px;
-  margin-top: -10em;
-}
-
-.totalAlumnas h6{
-  padding-top: 40px;
-  padding-left: 10px;
-}
-
-.totalRetiradas{
-  display: inline-block;
-  background: #ededed;
-  width: 140px;
-  height: 80px;
-  margin-left: 10px;
-}
-
-.totalRetiradas h6{
-  padding-top: 55px;
-  padding-left: 10px;
-}
-
-.box{
-  background-color: #ededed;
-  width: 285px;
-  height: 80px;
+.especializacion h1{
   padding-top: 10px;
+  padding-left: 20px;
+}
+
+.especializacion li{
+  padding-top: 5px;
+  margin-left: 15px;
+}
+/*Fin especialización*/
+
+.input{
+    margin-top: -8.6em;
+}
+
+.input input{
+  width: 55%;
+  height: 50%;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 10px;
-  margin-left: 52em;
-  margin-top: 10px;
+  margin-left: 34em;
+  border-radius: 5px;
 }
 
-/*Menú gráficos*/
-.menuGraph a{
-  text-decoration: none;
-  color: black;
+input:focus { /*No mostrar foco*/
+  outline: none;
 }
 
-/*Sub menú*/
-.subMenuGraph{
-  position: absolute;
-  color: black;
+.egresadas{
   background: white;
-  padding: 15px;
-  width: 10%;
-  margin-left: 3.8em;
-  display: none;
+  width: 56%;
+  height: 200px;
+  margin-left: 28.2em;
+  margin-top: 15px;
+  border-radius: 5px;
 }
 
-.menuGraph li:hover .subMenuGraph{
-  display: block;
+.textoPerfil{
+  width: 50%;
+  margin-left: 13em;
+  padding-top: 10px;
+}
+
+.egresadas img{
+  width: 25%;
+  margin-top: -53px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.bandera img{
+  position: absolute;
+  width: 50px;
+  margin-left: 130px;
+  margin-top: -45px;
+}
+
+.cuadrados{
+  margin-left: 380px;
+  margin-top: -180px;
+  text-align: center;
+}
+
+.tech{
+  display: inline-block;
+  background: #e0e0e0;
+  width: 100px;
+  height: 50px;
+}
+
+.life{
+  display: inline-block;
+  background: #e0e0e0;
+  width: 100px;
+  height: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.english{
+  display: inline-block;
+  background: #e0e0e0;
+  width: 100px;
+  height: 50px;
 }
