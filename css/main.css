@@ -175,7 +175,7 @@ button:focus { /*No mostrar foco*/
 .graph{
   background-color: #ededed;
   width: 100%;
-  height: 600px;
+  height: 400px;
 }
 
 .graph p{
@@ -196,6 +196,12 @@ button:focus { /*No mostrar foco*/
 
 .grafico img{
   width: 40%;
+  margin-top: 10px;
+}
+
+.grafico2 img{
+  width: 40%;
+  margin-top: 40px;
 }
 /*Sub menú 2*/
 .sprint1{
@@ -254,91 +260,31 @@ button:focus { /*No mostrar foco*/
 
 .box{
   background-color: #ededed;
-  width: 295px;
+  width: 285px;
   height: 80px;
   padding-top: 10px;
+  padding-left: 10px;
   margin-left: 52em;
   margin-top: 10px;
 }
 
-/*Gráfico 2*/
-
-.graph2{
-  background-color: #ededed;
-  width: 100%;
-  height: 600px;
-}
-
-.graph2 p{
-  font-size: 16px;
-  margin-left: 60px;
-  padding-top: 50px;
-  border-bottom:  0.5em solid #fbab00;
-  width: 100px;
-
-}
-
-.graphContainer2{ /* contenedor grafico 1*/
-  margin: 15px auto;
-  width: 90%;
-  height: 300px;
-  background: white;
-}
-
-.grafico2 img{
-  width: 40%;
-}
-/*Sub menú 2*/
-.sprint2{
-  margin-left: 43em;
-  margin-top: -16em;
-}
-
-.menuSprint2 a{
+/*Menú gráficos*/
+.menuGraph a{
   text-decoration: none;
   color: black;
 }
 
-.subMenu3{
+/*Sub menú*/
+.subMenuGraph{
   position: absolute;
   color: black;
   background: white;
   padding: 15px;
-  width: 7%;
+  width: 10%;
+  margin-left: 3.8em;
   display: none;
 }
 
-.menuSprint2 li:hover .subMenu3{
+.menuGraph li:hover .subMenuGraph{
   display: block;
-}
-/*Fin sub menú 2*/
-.porcentajes{
-  margin-left: 52em;
-  margin-top: -2.5em;
-}
-
-.alumnasCuadro2{
-  display: inline-block;
-  background: #ededed;
-  width: 140px;
-  height: 80px;
-  margin-top: -10em;
-}
-
-.alumnasCuadro2 h6{
-  padding-top: 40px;
-  padding-left: 10px;
-}
-
-.cuadro2{
-  display: inline-block;
-  background: #ededed;
-  width: 140px;
-  height: 80px;
-  margin-left: 10px;
-}
-
-.cuadro2 h6{
-  padding-top: 55px;
-  padding-left: 10px;
 }

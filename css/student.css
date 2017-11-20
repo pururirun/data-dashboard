@@ -1,0 +1,105 @@
+body{
+  background: #efefef;
+}
+
+ul{
+  list-style: none;
+}
+/*Div especialización*/
+.especializacion{
+  background: white;
+  width: 27%;
+  height: 110%;
+  margin-left: 80px;
+  border-radius: 5px;
+}
+
+.especializacion h1{
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.especializacion li{
+  padding-top: 5px;
+  margin-left: -20px;
+}
+/*Fin especialización*/
+
+.input{
+    margin-top: -9.2em;
+}
+
+.input input{
+  width: 55%;
+  height: 50%;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-left: 34em;
+  border-radius: 5px;
+}
+
+input:focus { /*No mostrar foco*/
+  outline: none;
+}
+
+.egresadas{
+  background: white;
+  width: 56%;
+  height: 200px;
+  margin-left: 28.2em;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.textoPerfil{
+  width: 50%;
+  margin-left: 13em;
+  padding-top: 10px;
+}
+
+h4{
+  margin-top: -17px;
+}
+
+.egresadas img{
+  width: 25%;
+  margin-top: -87px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.bandera img{
+  position: absolute;
+  width: 50px;
+  margin-left: 130px;
+  margin-top: -45px;
+}
+
+.cuadrados{
+  margin-left: 440px;
+  margin-top: -170px;
+  text-align: center;
+}
+
+.tech{
+  display: inline-block;
+  background: #e0e0e0;
+  width: 80px;
+  height: 50px;
+}
+
+.life{
+  display: inline-block;
+  background: #e0e0e0;
+  width: 80px;
+  height: 50px;
+}
+
+.english{
+  display: inline-block;
+  background: #e0e0e0;
+  width: 80px;
+  height: 50px;
+}
