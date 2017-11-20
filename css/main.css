@@ -185,3 +185,16 @@ button:focus { /*No mostrar foco*/
   width: 85px;
 
 }
+
+/*grafico 1 */
+
+.graphContainer{ /* contenedor grafico 1*/
+  margin: 15px auto;
+  width: 90%;
+}
+
+.grafico{
+  background-color: red;
+  height: 400px;
+  width: 60%;
+}
