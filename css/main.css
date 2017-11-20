@@ -185,7 +185,6 @@ button:focus { /*No mostrar foco*/
   width: 85px;
 
 }
-
 /*grafico 1 */
 
 .graphContainer{ /* contenedor grafico 1*/
@@ -193,8 +192,22 @@ button:focus { /*No mostrar foco*/
   width: 90%;
 }
 
-.grafico{
-  background-color: red;
-  height: 400px;
-  width: 60%;
+.grafico img{
+  
+  
+  width: 50%;
 }
+
+.box{
+  background-color: olive;
+  width: 100px;
+  height: 100px;
+  float: right;
+  position: relative;
+  bottom: 100px;
+  
+
+}
+
+
+
