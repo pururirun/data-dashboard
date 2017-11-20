@@ -4,16 +4,99 @@
           <meta charset="utf-8">
           <title>Menú prueba</title>
           <link rel="stylesheet" href="css/student.css">
+          <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+          <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
         </head>
         <body>
+          <!--inicio header-->
+          <header>
+           <div class="menu">
+             <h3>Menú</h3>
+           </div>
+           <div class="logo">
+             <img src="assets/images/logoLab.png">
+           </div>
+           <!--menu desplegable here!-->
+
+           <button id="btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+
+          </header>
+          <!--fin header-->
+          <!--menu desplegable here!-->
+          <div  id="opcsMenu" class="disabledMenu">
+            <div class="menuDespegable">
+              <div class="usuario">
+                <img src="assets/images/imgUser.png">
+                <h4>Mirio Togata</h4>
+              </div>
+                <nav>
+                  <ul>
+                    <li><a href="#">Add student</a></li>
+                    <li><a href="#">Remove student</a></li>
+                    <li><a href="#">Add sprint</a></li>
+                  </ul>
+                </nav>
+                <div class="logoFinal">
+                  <img src="assets/images/logoLabFinal.png">
+                </div>
+              </div>
+          </div>
+          <!--fin menu desplegable-->
+
+          <!--inicio secciones-->
+          <section id="seccion1">
+            <div class="sede">
+              <ul class="menuSedes">
+                <li><a href="#"><h1>Santiago de Chile 2017 - II</h1></a>
+                  <ul class="subMenu">
+                    <li><input type="checkbox" id="cbox1"><label> Lima</label></li>
+                    <hr>
+                    <li><input type="checkbox" id="cbox2"><label> 2015 - I</label></li>
+                    <li><input type="checkbox" id="cbox3"><label> 2015 - II</label></li>
+                    <li><input type="checkbox" id="cbox2"><label> 2016 - I</label></li>
+                    <li><input type="checkbox" id="cbox3"><label> 2016 - II</label></li>
+                    <li><input type="checkbox" id="cbox2"><label> 2017 - I</label></li>
+                    <li><input type="checkbox" id="cbox3"><label> 2017 - II</label></li>
+                    <br>
+                    <li><input type="checkbox" id="cbox1"><label> Arequipa</label></li>
+                    <hr>
+                    <li><input type="checkbox" id="cbox2"><label> 2015 - I</label></li>
+                    <li><input type="checkbox" id="cbox3"><label> 2015 - II</label></li>
+                    <li><input type="checkbox" id="cbox2"><label> 2016 - I</label></li>
+                    <li><input type="checkbox" id="cbox3"><label> 2016 - II</label></li>
+                    <li><input type="checkbox" id="cbox2"><label> 2017 - I</label></li>
+                    <li><input type="checkbox" id="cbox3"><label> 2017 - II</label></li>
+                    <br>
+                    <li><input type="checkbox" id="cbox1"><label> Santiago de Chile</label></li>
+                    <hr>
+                    <li><input type="checkbox" id="cbox2"><label> 2015 - I</label></li>
+                    <li><input type="checkbox" id="cbox3"><label> 2015 - II</label></li>
+                    <li><input type="checkbox" id="cbox2"><label> 2016 - I</label></li>
+                    <li><input type="checkbox" id="cbox3"><label> 2016 - II</label></li>
+                    <li><input type="checkbox" id="cbox2"><label> 2017 - I</label></li>
+                    <li><input type="checkbox" id="cbox3"><label> 2017 - II</label></li>
+                  </ul>
+                </li>
+              </ul>
+            <!--Fin sección sedes generaciones-->
+
+              <div class="lista">
+                <ul>
+                  <li><a href="">Overview</a></li>
+                  <li><a href="index2.html">Students</a></li>
+                  <li><a href="">Teachers</a></li>
+                </ul>
+              </div>
+            </div>
+          </section>
         <!--Estudiantes-->
         <section id="seccion4">
           <div class="especializacion">
             <h1>Specialization:</h1>
             <ul>
-              <li><input type="checkbox" id="cbox2"><label>Javascript</label></li>
-              <li><input type="checkbox" id="cbox2"><label>UX Design</label></li>
-              <li><input type="checkbox" id="cbox2"><label>Front end Designer</label></li>
+              <li><input type="checkbox" id="cbox2"><label> Javascript</label></li>
+              <li><input type="checkbox" id="cbox2"><label> UX Design</label></li>
+              <li><input type="checkbox" id="cbox2"><label> Frontend Developer</label></li>
             </ul>
           </div>
           <div class="input">
@@ -21,8 +104,8 @@
           </div>
           <div class="egresadas">
             <div class="textoPerfil">
-              <h1>Akko Kagari</h1>
-              <h4>Front end Developer</h4>
+              <h2>Akko Kagari</h2>
+              <h5>Frontend Developer</h5>
             </div>
               <img src="assets/images/akko.jpg">
               <div class="bandera">
@@ -30,23 +113,41 @@
               </div>
               <div class="cuadrados">
                 <div class="tech">
-                  <p>95.6%</p>
+                  <p>95.6%<br>Tech Skills</p>
                 </div>
                 <div class="life">
-                  <p>95.6%</p>
+                  <p>95.6%<br>Life Skills</p>
                 </div>
                 <div class="english">
-                  <p>Interm</p>
+                  <p>Interm <br>English Skills</p>
                 </div>
               </div>
-
-
-
+            </div>
           </div>
-
-          </div>
-
         </section>
 
+        <div class="egresadas">
+          <div class="textoPerfil">
+            <h2>Akko Kagari</h2>
+            <h5>Frontend Developer</h5>
+          </div>
+            <img src="assets/images/akko.jpg">
+          <div class="bandera">
+            <img src="assets/images/banderaJapon.png">
+          </div>
+          <div class="cuadrados">
+            <div class="tech">
+              <p>95.6%<br>Tech Skills</p>
+            </div>
+            <div class="life">
+              <p>95.6%<br>Life Skills</p>
+            </div>
+            <div class="english">
+              <p>Interm <br>English Skills</p>
+            </div>
+          </div>
+
+
+        <script src="./js/app.js"></script>
         </body>
       </html>

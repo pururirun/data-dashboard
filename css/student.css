@@ -1,6 +1,176 @@
-body{
-  background: #efefef;
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  list-style: none;
 }
+
+body{
+  background: #d6d6d6;
+  height: 100%;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  -webkit-box-shadow: 2px 2px 10px #000;
+}
+
+.logo{ /*Div que contiene logoLab*/
+  height: 70px;
+  width: 60%;
+  text-align: center;
+  float: left;
+  margin-left: 110px;
+}
+
+.logo img{/*imagen logoLab*/
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+  width: 10em;
+}
+
+.menu{  /* div que contiene h3 menu*/
+  width: 90px;
+  height: 70px;
+  margin-left: 60px;
+  float: left;
+}
+
+.menu h3{  /*texto*/
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+/*Menú despegable usuario*/
+
+.usuario img{
+  padding-left: 1em;
+  width: 40%;
+}
+
+.usuario h4{
+  margin-left: 6em;
+  position: relative;
+  bottom: 80px;
+  left: 10px;
+  color: #fff;
+}
+
+.menuDespegable{
+  background: #363636;
+  margin-left: 3em;
+  width: 15em;
+  height: 100%;
+  position: fixed;
+  top: 70px;
+  left: -3em;
+  z-index: 2;
+}
+
+.menuDespegable ul{
+  text-align: left;
+  padding-left: 1em;
+  padding-bottom: 2em;
+}
+
+.menuDespegable li:hover{
+  background: #fbab00;
+}
+
+.menuDespegable a{
+  text-decoration: none;
+  color: white;
+}
+
+.logoFinal img{
+  padding-left: 5.5em;
+  margin-top: 17em;
+  width: 20%;
+}
+
+#btn{
+  border: none;
+  background: none;
+  position: relative;
+  right: 74em;
+  top: 1.7em;
+}
+
+button:focus { /*No mostrar foco*/
+  outline: none;
+}
+.enabledMenu{
+  display: block;
+}
+
+.disabledMenu{
+  display: none;
+}
+/*Menú despegable usuario fin*/
+
+/*Sedes inicio*/
+
+.sede{ /*Barra menús sedes*/
+  background-color: #444;
+  width: 100%;
+  height: 150px;
+  padding-top: 60px;
+}
+
+.sede h1{
+  margin-top: 50px;
+  padding-left: 3em;
+}
+
+.menuSedes a{
+  text-decoration: none;
+  color: white;
+}
+
+/*Sub menú*/
+.subMenu{
+  position: absolute;
+  color: black;
+  background: white;
+  padding: 15px;
+  width: 20%;
+  margin-left: 4.5em;
+  display: none;
+}
+
+.menuSedes li:hover .subMenu{
+  display: block;
+}
+
+/*Fin sub menú*/
+
+/*Fin sedes*/
+
+/*Gráficos, estudiantes, profes*/
+.lista ul{
+  display: flex;
+  list-style: none;
+}
+
+.lista a{
+  text-decoration: none;
+  color: white;
+  padding-left:
+}
+
+.lista a:hover{
+  border-bottom:0.5em solid #fbab00;
+}
+
+.lista li{
+  display: block;
+  padding-top: 2em;
+  padding-left: 4.5em;
+}
+
+/*Fin gráficos, etc*/
 
 ul{
   list-style: none;
@@ -9,9 +179,10 @@ ul{
 .especializacion{
   background: white;
   width: 27%;
-  height: 110%;
+  height: 140px;
   margin-left: 80px;
   border-radius: 5px;
+  margin-top: 1em;
 }
 
 .especializacion h1{
@@ -21,12 +192,12 @@ ul{
 
 .especializacion li{
   padding-top: 5px;
-  margin-left: -20px;
+  margin-left: 15px;
 }
 /*Fin especialización*/
 
 .input{
-    margin-top: -9.2em;
+    margin-top: -8.6em;
 }
 
 .input input{
@@ -49,7 +220,7 @@ input:focus { /*No mostrar foco*/
   width: 56%;
   height: 200px;
   margin-left: 28.2em;
-  margin-top: 10px;
+  margin-top: 15px;
   border-radius: 5px;
 }
 
@@ -59,13 +230,9 @@ input:focus { /*No mostrar foco*/
   padding-top: 10px;
 }
 
-h4{
-  margin-top: -17px;
-}
-
 .egresadas img{
   width: 25%;
-  margin-top: -87px;
+  margin-top: -53px;
   margin-left: 10px;
   border-radius: 5px;
 }
@@ -78,28 +245,30 @@ h4{
 }
 
 .cuadrados{
-  margin-left: 440px;
-  margin-top: -170px;
+  margin-left: 380px;
+  margin-top: -180px;
   text-align: center;
 }
 
 .tech{
   display: inline-block;
   background: #e0e0e0;
-  width: 80px;
+  width: 100px;
   height: 50px;
 }
 
 .life{
   display: inline-block;
   background: #e0e0e0;
-  width: 80px;
+  width: 100px;
   height: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .english{
   display: inline-block;
   background: #e0e0e0;
-  width: 80px;
+  width: 100px;
   height: 50px;
 }
