@@ -32,9 +32,13 @@
         </div>
           <nav>
             <ul>
-              <li><a href="#">Add student</a></li>
-              <li><a href="#">Remove student</a></li>
-              <li><a href="#">Add sprint</a></li>
+              <li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i> Add student</a></li>
+              <hr>
+              <li><a href="#"><i class="fa fa-user-times" aria-hidden="true"></i> Remove student</a></li>
+              <hr>
+              <br>
+              <li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i> Configuration</a></li>
+              <hr>
             </ul>
           </nav>
           <div class="logoFinal">
@@ -45,47 +49,48 @@
     <!--fin menu desplegable-->
 
     <!--inicio secciones-->
-    <section id="seccion1">
-      <div class="sede">
-        <ul class="menuSedes">
-          <li><a href="#"><h1>Santiago de Chile 2017 - II</h1></a>
-            <ul class="subMenu">
-              <li><input type="checkbox" id="cbox1"><label> Lima</label></li>
+    <div class="sede">
+      <h1>Santiago de Chile 2017 - II</h1>
+      <button id="btn2"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+    <div id="opcsMenu2" class="disabledMenu2">
+      <div class="subMenu">
+        <ul>
+          <li><input type="checkbox" id="cbox1"><label> Lima</label></li>
               <hr>
-              <li><input type="checkbox" id="cbox2"><label> 2015 - I</label></li>
-              <li><input type="checkbox" id="cbox3"><label> 2015 - II</label></li>
-              <li><input type="checkbox" id="cbox2"><label> 2016 - I</label></li>
-              <li><input type="checkbox" id="cbox3"><label> 2016 - II</label></li>
-              <li><input type="checkbox" id="cbox2"><label> 2017 - I</label></li>
-              <li><input type="checkbox" id="cbox3"><label> 2017 - II</label></li>
+              <li><input type="checkbox" id="cbox"><label> 2015 - I</label></li>
+              <li><input type="checkbox" id="cbox"><label> 2015 - II</label></li>
+              <li><input type="checkbox" id="cbox"><label> 2016 - I</label></li>
+              <li><input type="checkbox" id="cbox"><label> 2016 - II</label></li>
+              <li><input type="checkbox" id="cbox"><label> 2017 - I</label></li>
+              <li><input type="checkbox" id="cbox"><label> 2017 - II</label></li>
               <br>
-              <li><input type="checkbox" id="cbox1"><label> Arequipa</label></li>
+              <li><input type="checkbox" id="cbox"><label> Arequipa</label></li>
               <hr>
-              <li><input type="checkbox" id="cbox2"><label> 2015 - I</label></li>
-              <li><input type="checkbox" id="cbox3"><label> 2015 - II</label></li>
-              <li><input type="checkbox" id="cbox2"><label> 2016 - I</label></li>
-              <li><input type="checkbox" id="cbox3"><label> 2016 - II</label></li>
-              <li><input type="checkbox" id="cbox2"><label> 2017 - I</label></li>
-              <li><input type="checkbox" id="cbox3"><label> 2017 - II</label></li>
+              <li><input type="checkbox" id="cbox"><label> 2015 - I</label></li>
+              <li><input type="checkbox" id="cbox"><label> 2015 - II</label></li>
+              <li><input type="checkbox" id="cbox"><label> 2016 - I</label></li>
+              <li><input type="checkbox" id="cbox"><label> 2016 - II</label></li>
+              <li><input type="checkbox" id="cbox"><label> 2017 - I</label></li>
+              <li><input type="checkbox" id="cbox"><label> 2017 - II</label></li>
               <br>
-              <li><input type="checkbox" id="cbox1"><label> Santiago de Chile</label></li>
+              <li><input type="checkbox" id="cbox"><label> Santiago de Chile</label></li>
               <hr>
-              <li><input type="checkbox" id="cbox2"><label> 2015 - I</label></li>
-              <li><input type="checkbox" id="cbox3"><label> 2015 - II</label></li>
-              <li><input type="checkbox" id="cbox2"><label> 2016 - I</label></li>
-              <li><input type="checkbox" id="cbox3"><label> 2016 - II</label></li>
-              <li><input type="checkbox" id="cbox2"><label> 2017 - I</label></li>
-              <li><input type="checkbox" id="cbox3"><label> 2017 - II</label></li>
-            </ul>
-          </li>
+              <li><input type="checkbox" id="cbox"><label> 2015 - I</label></li>
+              <li><input type="checkbox" id="cbox"><label> 2015 - II</label></li>
+              <li><input type="checkbox" id="cbox"><label> 2016 - I</label></li>
+              <li><input type="checkbox" id="cbox"><label> 2016 - II</label></li>
+              <li><input type="checkbox" id="cbox"><label> 2017 - I</label></li>
+              <li><input type="checkbox" id="cbox"><label> 2017 - II</label></li>
         </ul>
+      </div>
+    </div>
       <!--Fin sección sedes generaciones-->
 
         <div class="lista">
           <ul>
-            <li><a href="">overview</a></li>
-            <li><a href="index2.html">students</a></li>
-            <li><a href="">teachers</a></li>
+            <li><a href="">Overview</a></li>
+            <li><a href="index2.html">Students</a></li>
+            <li><a href="">Teachers</a></li>
           </ul>
         </div>
       </div>
@@ -96,28 +101,29 @@
         <ul class="menuGraph">
           <li><a href="#"><p>Enrollment</p></a>
             <ul class="subMenuGraph">
-              <li><input type="checkbox" id="cbox2"><label> Tech Skills</label></li>
-              <li><input type="checkbox" id="cbox3"><label> Life Skills</label></li>
+              <li><input type="checkbox" id="cbox"><label> Achievement</label></li>
+              <li><input type="checkbox" id="cbox"><label> Net Promoter Score</label></li>
             </ul>
           </li>
         </ul>
-        <div class="graphContainer">
+      <div class="graphContainer">
         <div class="grafico"><img src="assets/images/bar-graph.png"></div>
         <div class="sprint1">
-          <ul class="menuSprint">
-            <li><a href="#"><h2>Sprints</h2></a>
-            <ul class="subMenu2">
-              <li><input type="checkbox" id="cbox2"><label> Sprint 1</label></li>
-              <li><input type="checkbox" id="cbox2"><label> Sprint 2</label></li>
-              <li><input type="checkbox" id="cbox2"><label> Sprint 3</label></li>
-              <li><input type="checkbox" id="cbox2"><label> Sprint 4</label></li>
-              <li><input type="checkbox" id="cbox2"><label> Sprint 5</label></li>
-              <li><input type="checkbox" id="cbox2"><label> Sprint 6</label></li>
-              <li><input type="checkbox" id="cbox2"><label> Sprint 7</label></li>
+          <h2>Sprints</h2>
+          <button id="btn4"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+          <div id="opcsMenu4" class="disabledMenu4">
+            <ul>
+              <li><input type="checkbox" id="cbox"><label> Sprint 1</label></li>
+              <li><input type="checkbox" id="cbox"><label> Sprint 2</label></li>
+              <li><input type="checkbox" id="cbox"><label> Sprint 3</label></li>
+              <li><input type="checkbox" id="cbox"><label> Sprint 4</label></li>
+              <li><input type="checkbox" id="cbox"><label> Sprint 5</label></li>
+              <li><input type="checkbox" id="cbox"><label> Sprint 6</label></li>
+              <li><input type="checkbox" id="cbox"><label> Sprint 7</label></li>
             </ul>
-          </ul>
-          </li>
+          </div>
         </div>
+      </div>
         <div class="porcentajes">
           <div class="totalAlumnas">
             <h6># STUDENT CURRENTLY ENROLLED</h6>
@@ -128,9 +134,9 @@
         </div>
         <div class="box">
           <ul>
-            <li><input type="checkbox" id="chbox" name="chbox"><label> AM</label></li>
-            <li><input type="checkbox" id="chbox2" name="chbox"><label> PM</label></li>
-            <li><input type="checkbox" id="chbox3" name="chbox"><label> AM/PM</label></li>
+            <li><input type="checkbox" id="chbox"><label> AM</label></li>
+            <li><input type="checkbox" id="chbox"><label> PM</label></li>
+            <li><input type="checkbox" id="chbox"><label> AM/PM</label></li>
           </ul>
         </div>
       </div>
@@ -139,19 +145,31 @@
 <!--Gráfico 2-->
     <section id="seccion3">
       <div class=" graph">
-        <p>Tech Skills</p>
+        <ul class="menuGraph">
+          <li><a href="#"><p>Achievement</p></a>
+            <ul class="subMenuGraph">
+              <li><input type="checkbox" id="cbox2"><label> Achievement</label></li>
+              <li><input type="checkbox" id="cbox3"><label> Net Promoter Score</label></li>
+            </ul>
+          </li>
+        </ul>
         <div class="graphContainer">
-        <div class="grafico2"><img src="assets/images/graph.png"></div>
+        <div class="grafico"><img src="assets/images/bar-graph.png"></div>
         <div class="sprint1">
-          <ul class="menuSprint">
-            <li><a href="#"><h2>Sprints</h2></a>
-            <ul class="subMenu2">
+            <h2>Sprints</h2>
+            <button id="btn4"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+            <div id="opcsMenu4" class="disabledMenu4">
+            <ul>
               <li><input type="checkbox" id="cbox2"><label> Sprint 1</label></li>
               <li><input type="checkbox" id="cbox2"><label> Sprint 2</label></li>
               <li><input type="checkbox" id="cbox2"><label> Sprint 3</label></li>
+              <li><input type="checkbox" id="cbox2"><label> Sprint 4</label></li>
+              <li><input type="checkbox" id="cbox2"><label> Sprint 5</label></li>
+              <li><input type="checkbox" id="cbox2"><label> Sprint 6</label></li>
+              <li><input type="checkbox" id="cbox2"><label> Sprint 7</label></li>
             </ul>
-          </ul>
-          </li>
+        </div>
+        </div>
         </div>
         <div class="porcentajes">
           <div class="totalAlumnas">
@@ -169,24 +187,36 @@
           </ul>
         </div>
       </div>
-
-<!--Gráfico 3-->
     </section>
+<!--Gráfico 3-->
+
     <section id="seccion4">
       <div class=" graph">
-        <p>Life Skills</p>
+        <ul class="menuGraph">
+          <li><a href="#"><p>Net Promoter Score</p></a>
+            <ul class="subMenuGraph">
+              <li><input type="checkbox" id="cbox2"><label> Achievement</label></li>
+              <li><input type="checkbox" id="cbox3"><label> Net Promoter Score</label></li>
+            </ul>
+          </li>
+        </ul>
         <div class="graphContainer">
-        <div class="grafico2"><img src="assets/images/graph.png"></div>
+        <div class="grafico"><img src="assets/images/bar-graph.png"></div>
         <div class="sprint1">
-          <ul class="menuSprint">
-            <li><a href="#"><h2>Sprints</h2></a>
-            <ul class="subMenu2">
+            <h2>Sprints</h2>
+            <button id="btn4"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+            <div id="opcsMenu4" class="disabledMenu4">
+            <ul>
               <li><input type="checkbox" id="cbox2"><label> Sprint 1</label></li>
               <li><input type="checkbox" id="cbox2"><label> Sprint 2</label></li>
               <li><input type="checkbox" id="cbox2"><label> Sprint 3</label></li>
+              <li><input type="checkbox" id="cbox2"><label> Sprint 4</label></li>
+              <li><input type="checkbox" id="cbox2"><label> Sprint 5</label></li>
+              <li><input type="checkbox" id="cbox2"><label> Sprint 6</label></li>
+              <li><input type="checkbox" id="cbox2"><label> Sprint 7</label></li>
             </ul>
-          </ul>
-          </li>
+        </div>
+        </div>
         </div>
         <div class="porcentajes">
           <div class="totalAlumnas">
