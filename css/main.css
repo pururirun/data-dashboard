@@ -287,7 +287,11 @@ hr{
   height: 80px;
   position: relative;
   top: 10px;
-  
+<<<<<<< ec7964504321d5ebcde2c3bdd21bba54adf472d9
+
+=======
+
+>>>>>>> Fin
 
 }
 
@@ -304,10 +308,13 @@ hr{
   margin: 0;
 }
 
+<<<<<<< ec7964504321d5ebcde2c3bdd21bba54adf472d9
 #totalAlumnas3{
   margin-bottom: 10px;
 }
 
+=======
+>>>>>>> Fin
 .totalRetiradas{
   display: inline-block;
   background: #ededed;
@@ -324,7 +331,9 @@ hr{
   position: relative;
   bottom: 4px;
   margin-left: 10px
-  
+
+
+
 
 }
 
@@ -361,13 +370,13 @@ hr{
   color: black;
   background: white;
   padding: 15px;
-  width: 14%;
-  margin-left: 3.8em;
+  width: 9.4%;
+  margin-left: 60px;
   display: none;
 }
 
 .menuGraph li{
-  width: 10px;
+
 }
 
 .menuGraph li:hover .subMenuGraph{
@@ -420,9 +429,6 @@ hr{
   float: left;
   margin-right: 20px;
   border-radius: 10px;
-
-
-
 }
 
 .graphContainer2{
@@ -434,7 +440,9 @@ hr{
   width: 358px;
   height: 358px;
   background-color: #fff;
-  
+
+
+
 }
 .graph2{
   width: 358px;
@@ -444,6 +452,10 @@ hr{
 .graph3{
   width: 358px;
   height: 358px;
+
+  margin-left: 49em;
+  margin-top: -365px;
+
   background-color: #fff;
 }
 
@@ -468,7 +480,9 @@ hr{
   margin-left: 45px;
   padding-top: 10px;
   border-bottom:  0.5em solid #fbab00;
-  width: 85px;
+
+  width: 150px;
+
 
 }
 
@@ -477,7 +491,9 @@ hr{
   margin-left: 45px;
   padding-top: 10px;
   border-bottom:  0.5em solid #fbab00;
-  width: 85px;
+
+  width: 113px;
+
 
 }
 .graph3 p{
@@ -485,7 +501,9 @@ hr{
   margin-left: 45px;
   padding-top: 10px;
   border-bottom:  0.5em solid #fbab00;
-  width: 85px;
+
+  width: 135px;
+
 
 }
 
@@ -568,8 +586,10 @@ hr{
  display: block;
  position: relative;
  bottom: 20px;
- 
+
+
 }
+
 
 #num2{
   font-size: 24px;
@@ -595,12 +615,18 @@ hr{
 }
 
  #text3 h6{
+
+  top: 50px;
+
   display: block;
 }
 
 .green{
   font-size: 24px;
   color: green;
+
+  margin-top: 20px;
+
   text-align: center;
 
 }
@@ -614,4 +640,3 @@ hr{
 .text4{
   margin-top: 0;
 }
-

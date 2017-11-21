@@ -5,9 +5,12 @@
   list-style: none;
 }
 
-body{
+.seccion2{
   background: #d6d6d6;
-  height: 100%;
+}
+
+body{
+  background: #ececec;
 }
 
 header{
@@ -15,6 +18,7 @@ header{
   width: 100%;
   background: #fff;
   -webkit-box-shadow: 2px 2px 10px #000;
+    z-index: 6;
 }
 
 
@@ -57,7 +61,7 @@ header{
   margin-left: 6em;
   position: relative;
   bottom: 80px;
-  left: 10px;
+  left: 20px;
   color: #fff;
 }
 
@@ -74,8 +78,10 @@ header{
 
 .menuDespegable ul{
   text-align: left;
-  padding-left: 1em;
+  margin-left: 10px;
+  margin-right: 10px;
   padding-bottom: 2em;
+  margin-top: -20px;
 }
 
 .menuDespegable li:hover{
@@ -96,7 +102,7 @@ hr{
 
 .logoFinal img{
   padding-left: 5.5em;
-  margin-top: 17em;
+  margin-top: 16em;
   width: 20%;
 }
 
@@ -120,24 +126,29 @@ button:focus { /*No mostrar foco*/
 }
 /*Menú despegable usuario fin*/
 
-/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+hr{
+  border: none;
+  color: #fbab00;
+  background-color: #fbab00;
+  height: 2px;
+}
+
+
 
 /*Sedes inicio*/
 
 .sede{ /*Barra menús sedes*/
   background-color: #444;
   width: 100%;
-  height: 150px;
+  height: 160px;
   padding-top: 60px;
 }
 
 .sede h1{
+  display: inline-block; /*Display inline block weooon*/
   margin-top: 50px;
   padding-left: 3em;
-}
-
-.menuSedes a{
-  text-decoration: none;
   color: white;
 }
 /*Sub menú*/
@@ -146,13 +157,12 @@ button:focus { /*No mostrar foco*/
   color: black;
   background: white;
   padding: 15px;
-  width: 20%;
-  margin-left: 4.5em;
-  display: none;
+  width: 27.5%;
+  margin-left: 6em;
 }
-
-.menuSedes li:hover .subMenu{
-  display: block;
+.subMenu a{
+  text-decoration: none;
+  color: black;
 }
 
 /*Fin sub menú*/
@@ -163,6 +173,10 @@ button:focus { /*No mostrar foco*/
 
 
 /*Gráficos, estudiantes, profes*/
+.lista{
+  margin-top: 1.5em;
+}
+
 .lista ul{
   display: flex;
   list-style: none;
@@ -171,7 +185,6 @@ button:focus { /*No mostrar foco*/
 .lista a{
   text-decoration: none;
   color: white;
-  padding-left:
 }
 
 .lista a:hover{
@@ -179,14 +192,8 @@ button:focus { /*No mostrar foco*/
 }
 
 .lista li{
-  display: block;
-  padding-top: 2em;
-  padding-left: 4.5em;
+  padding-left: 6em;
 }
-
-/*Fin gráficos, etc*/
-
-/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 
 ul{
@@ -291,4 +298,21 @@ input:focus { /*No mostrar foco*/
   background: #e0e0e0;
   width: 100px;
   height: 50px;
+}
+
+#btn2{
+  display: inline-block;
+  font-size: 20px;
+  border: none;
+  background: none;
+  color: white;
+  margin-left: 1em;
+}
+
+.enabledMenu2{
+  display: block;
+}
+
+.disabledMenu2{
+  display: none;
 }
