@@ -304,6 +304,10 @@ hr{
   margin: 0;
 }
 
+#totalAlumnas3{
+  margin-bottom: 10px;
+}
+
 .totalRetiradas{
   display: inline-block;
   background: #ededed;
