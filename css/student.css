@@ -17,6 +17,7 @@ header{
   -webkit-box-shadow: 2px 2px 10px #000;
 }
 
+
 .logo{ /*Div que contiene logoLab*/
   height: 70px;
   width: 60%;
@@ -42,6 +43,8 @@ header{
   margin-top: 20px;
   margin-left: 15px;
 }
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 /*Menú despegable usuario*/
 
@@ -79,6 +82,13 @@ header{
   background: #fbab00;
 }
 
+hr{
+  border: none;
+  color: #fbab00;
+  background-color: #fbab00;
+  height: 2px;
+}
+
 .menuDespegable a{
   text-decoration: none;
   color: white;
@@ -110,6 +120,8 @@ button:focus { /*No mostrar foco*/
 }
 /*Menú despegable usuario fin*/
 
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
 /*Sedes inicio*/
 
 .sede{ /*Barra menús sedes*/
@@ -128,7 +140,6 @@ button:focus { /*No mostrar foco*/
   text-decoration: none;
   color: white;
 }
-
 /*Sub menú*/
 .subMenu{
   position: absolute;
@@ -147,6 +158,9 @@ button:focus { /*No mostrar foco*/
 /*Fin sub menú*/
 
 /*Fin sedes*/
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
 
 /*Gráficos, estudiantes, profes*/
 .lista ul{
@@ -172,6 +186,9 @@ button:focus { /*No mostrar foco*/
 
 /*Fin gráficos, etc*/
 
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
 ul{
   list-style: none;
 }
@@ -195,6 +212,9 @@ ul{
   margin-left: 15px;
 }
 /*Fin especialización*/
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
 
 .input{
     margin-top: -8.6em;
