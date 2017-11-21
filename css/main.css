@@ -275,12 +275,33 @@ hr{
   background: #ededed;
   width: 140px;
   height: 80px;
-  margin-top: -10em;
+  position: relative;
+  top: 25px;
+
+}
+
+.totalAlumnas2{
+  display: inline-block;
+  background: #ededed;
+  width: 140px;
+  height: 80px;
+  position: relative;
+  top: 10px;
+  
+
 }
 
 .totalAlumnas h6{
   padding-top: 40px;
   padding-left: 10px;
+}
+
+#totalAlumnas3 h6{
+  padding-top: 0;
+}
+
+#totalRetiradas3 h6{
+  margin: 0;
 }
 
 .totalRetiradas{
@@ -291,9 +312,21 @@ hr{
   margin-left: 10px;
 }
 
+.totalRetiradas2{
+  display: inline-block;
+  background: #ededed;
+  width: 140px;
+  height: 80px;
+  position: relative;
+  bottom: 4px;
+  margin-left: 10px
+  
+
+}
+
 .totalRetiradas h6{
-  padding-top: 55px;
-  padding-left: 10px;
+  margin-top: 30px;
+  padding-left: 30px;
 }
 
 .box{
@@ -507,3 +540,74 @@ hr{
   margin-top: 10px;
   margin-left:45px;
 }
+
+/*cifras y porcentajes*/
+
+#num1{
+  font-size: 24px;
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+#red{
+  color: red;
+  font-size: 24px;
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+.totalAlumnas #text1{
+ display: block;
+ position: relative;
+ bottom: 20px;
+ 
+}
+
+#num2{
+  font-size: 24px;
+  text-align: center;
+  display: block;
+  position: relative;
+  top: 10px;
+}
+
+#green1{
+  font-size: 24px;
+  text-align: center;
+  color: green;
+  display: block;
+  position: relative;
+  top: 10px;
+}
+
+.totalAlumnas2 #text2{
+  display: block;
+  position: relative;
+  top: 20px;
+}
+
+ #text3 h6{
+  display: block;
+}
+
+.green{
+  font-size: 24px;
+  color: green;
+  text-align: center;
+
+}
+
+.num{
+  font-size: 24px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.text4{
+  margin-top: 0;
+}
+
