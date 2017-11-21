@@ -128,7 +128,7 @@ button:focus { /*No mostrar foco*/
 }
 
 .sede h1{
-  display: inline-block; /*Display inline block weooon*/
+  display: inline-block;
   margin-top: 50px;
   padding-left: 3em;
   color: white;
@@ -287,11 +287,7 @@ hr{
   height: 80px;
   position: relative;
   top: 10px;
-<<<<<<< ec7964504321d5ebcde2c3bdd21bba54adf472d9
 
-=======
-
->>>>>>> Fin
 
 }
 
@@ -308,13 +304,6 @@ hr{
   margin: 0;
 }
 
-<<<<<<< ec7964504321d5ebcde2c3bdd21bba54adf472d9
-#totalAlumnas3{
-  margin-bottom: 10px;
-}
-
-=======
->>>>>>> Fin
 .totalRetiradas{
   display: inline-block;
   background: #ededed;
@@ -331,8 +320,6 @@ hr{
   position: relative;
   bottom: 4px;
   margin-left: 10px
-
-
 
 
 }
@@ -370,13 +357,13 @@ hr{
   color: black;
   background: white;
   padding: 15px;
-  width: 9.4%;
-  margin-left: 60px;
+  width: 14%;
+  margin-left: 3.8em;
   display: none;
 }
 
 .menuGraph li{
-
+  width: 10px;
 }
 
 .menuGraph li:hover .subMenuGraph{
@@ -429,19 +416,21 @@ hr{
   float: left;
   margin-right: 20px;
   border-radius: 10px;
+  margin-left: 45px;
+
+
+
 }
 
-.graphContainer2{
+/*.graphContainer2{
   margin-left: 68px;
   width: 90%;
 
-}
+}*/
 .graph1{
   width: 358px;
   height: 358px;
   background-color: #fff;
-
-
 
 }
 .graph2{
@@ -452,10 +441,6 @@ hr{
 .graph3{
   width: 358px;
   height: 358px;
-
-  margin-left: 49em;
-  margin-top: -365px;
-
   background-color: #fff;
 }
 
@@ -480,9 +465,7 @@ hr{
   margin-left: 45px;
   padding-top: 10px;
   border-bottom:  0.5em solid #fbab00;
-
-  width: 150px;
-
+  width: 85px;
 
 }
 
@@ -491,9 +474,7 @@ hr{
   margin-left: 45px;
   padding-top: 10px;
   border-bottom:  0.5em solid #fbab00;
-
-  width: 113px;
-
+  width: 85px;
 
 }
 .graph3 p{
@@ -501,9 +482,7 @@ hr{
   margin-left: 45px;
   padding-top: 10px;
   border-bottom:  0.5em solid #fbab00;
-
-  width: 135px;
-
+  width: 85px;
 
 }
 
@@ -587,9 +566,7 @@ hr{
  position: relative;
  bottom: 20px;
 
-
 }
-
 
 #num2{
   font-size: 24px;
@@ -615,18 +592,12 @@ hr{
 }
 
  #text3 h6{
-
-  top: 50px;
-
   display: block;
 }
 
 .green{
   font-size: 24px;
   color: green;
-
-  margin-top: 20px;
-
   text-align: center;
 
 }
