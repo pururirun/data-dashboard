@@ -22,4 +22,4 @@
    (puedes solicitar apoyo de tus profes para este paso).
 
 > Nota: No olvides que es una buena práctica describir tu proyecto en este
-> archivo `README.md` y también desplegar tu web a Github Pages :smiley:.
+> archivo `README.md` y también desplegar tu web a Github Pages.
